@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Project-Fuel-Cost-Expense-Tracker/1.0.0": {
+        "runtime": {
+          "Project-Fuel-Cost-Expense-Tracker.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Project-Fuel-Cost-Expense-Tracker/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

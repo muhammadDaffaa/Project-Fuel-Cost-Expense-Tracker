@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\daffa\Documents\CSharpCorner\Dekstop Application\Project-Fuel-Cost-Expense-Tracker\App.xaml
-11407045341
+6-237758535
 
-5443891517
+101359557123
 194101785492
-MainWindow.xaml;
+MainWindow.xaml;Pages\Account.xaml;Pages\Dashboard.xaml;Pages\EForm.xaml;Pages\Trend.xaml;Themes\Generic.xaml;
 
 False
 

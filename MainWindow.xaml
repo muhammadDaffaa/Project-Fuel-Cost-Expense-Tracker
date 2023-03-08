@@ -7,6 +7,28 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="50"/>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+
+        <Path Stretch="Uniform" Margin="0,10,0,0" VerticalAlignment="Top" Fill="BlueViolet" Height="25" Width="25" Data="m 0,0 -9.885,-1.456 0,-7.155 L 0,-8.533 0,0 z m -17.998,-2.548 0.007,-6.117 7.188,0.054 0,7.03 -7.195,-0.967 z m 0.005,-6.843 10e-4,-6.12 7.189,-0.985 0,7.105 -7.19,0 z m 8.108,-0.114 0,-7.141 L 0,-18 l 0.002,8.495 -9.887,0 z"/>
+
+
+        <ListBox Grid.Column="0" SelectionMode="Single" SelectionChanged="sidebar_SelectionChanged"  x:Name="sidebar" Margin="0,50,0,50" BorderThickness="0">
+            <local:NavButton NavLink="/Pages/Dashboard.xaml" Margin="3" Padding="6" Icon="M6 26h16V6H6v20zm0 16h16V30H6v12zm20 0h16V22H26v20zm0-36v12h16V6H26z"/>
+            <local:NavButton NavLink="/Pages/EForm.xaml" Margin="3"  Padding="6" Icon="M54 59.11H10a1 1 0 0 1-1-1V5.89a1 1 0 0 1 1-1h32.3a1 1 0 0 1 .7.31l11.7 12.12a1 1 0 0 1 .3.68v40.1a1 1 0 0 1-1 1.01Zm-43-2h42v-38.7L41.88 6.89H11Z"/>
+            <local:NavButton NavLink="/Pages/Trend.xaml" Margin="3" Padding="6" Icon="M6 26h16V6H6v20zm0 16h16V30H6v12zm20 0h16V22H26v20zm0-36v12h16V6H26z"/>
+            <local:NavButton NavLink="/Pages/Account.xaml" Margin="3" Padding="6" Icon="M6 26h16V6H6v20zm0 16h16V30H6v12zm20 0h16V22H26v20zm0-36v12h16V6H26z"/>
+
+        </ListBox>
+
+        <Frame Grid.Column="1" x:Name="navFrame" NavigationUIVisibility="Hidden" Background="LightGray">
+
+        </Frame>
+
+
 
     </Grid>
 </Window>

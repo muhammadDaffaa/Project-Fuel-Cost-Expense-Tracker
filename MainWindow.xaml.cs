@@ -24,5 +24,15 @@ namespace Project_Fuel_Cost_Expense_Tracker
         {
             InitializeComponent();
         }
+
+        private void sidebar_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            var selected = sidebar.SelectedItem as NavButton;
+
+
+            navFrame.Navigate(selected.NavLink);
+
+
+        }
     }
 }
